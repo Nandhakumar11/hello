@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>File upload</title>
+</head>
+<body>
+<script>
+function myFunction() {
+  alert("Uploaded Sucessfully");
+}
+</script>
+<center><p>Choose the File to upload :</p>
+<form action="file.php" method="post" enctype="multipart/form-data">
+	<input type="file" name="file">
+	<button onclick="myFunction()">Upload</button>
+</form></center>
+
+
+
+</body>
+</html>
